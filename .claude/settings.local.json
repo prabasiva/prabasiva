@@ -19,7 +19,8 @@
       "Bash(ls:*)",
       "WebFetch(domain:karpathy.ai)",
       "Bash(mkdir:*)",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Bash(mv:*)"
     ],
     "deny": []
   }
