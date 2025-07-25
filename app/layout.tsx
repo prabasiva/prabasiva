@@ -18,6 +18,29 @@ const content = getContent();
 export const metadata: Metadata = {
   title: `${content.personal.name} - ${content.personal.title}`,
   description: content.personal.bio,
+  keywords: "Digital Transformation Executive, Enterprise Architecture, API Platform, GenAI, Machine Learning, Data Analytics, Engineering Leader",
+  authors: [{ name: content.personal.name }],
+  creator: content.personal.name,
+  openGraph: {
+    title: `${content.personal.name} - ${content.personal.title}`,
+    description: content.personal.bio,
+    url: 'https://prabasiva.com',
+    siteName: `${content.personal.name} Portfolio`,
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${content.personal.name} - ${content.personal.title}`,
+    description: content.personal.bio,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({

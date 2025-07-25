@@ -5,6 +5,7 @@ import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
 import About from '@/components/About'
 import Footer from '@/components/Footer'
+import StructuredData from '@/components/StructuredData'
 import { getContent } from '@/lib/content'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
   
   return (
     <>
+      <StructuredData content={content} />
       <Navigation content={content} />
       <main>
         <Hero content={content} />
