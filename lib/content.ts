@@ -6,17 +6,17 @@ import { SiteContent } from '@/types/content'
 const contentData: SiteContent = {
   "personal": {
     "name": "Praba Siva",
-    "title": "Full Stack Developer",
+    "title": "Chief Strategist, Architect & Engineer",
     "tagline": "Creative Problem Solver",
-    "email": "your.email@example.com",
-    "location": "Your City, Country",
-    "bio": "Passionate about building beautiful, functional web experiences. Specializing in React, Next.js, and modern web technologies."
+    "email": "mail@prabasiva.com",
+    "location": "Ohio, USA",
+    "bio": "Passionate about building transformational business models & process to drive bottom and top lines. Specializing in Agentic AI development and deployment"
   },
   "social": {
-    "github": "https://github.com/yourusername",
-    "linkedin": "https://linkedin.com/in/yourusername",
-    "twitter": "https://twitter.com/yourusername",
-    "website": "https://yourwebsite.com"
+    "github": "https://github.com/prabasiva",
+    "linkedin": "https://linkedin.com/in/prabasiva",
+    "twitter": "https://x.com/prabasiva",
+    "website": "https://blog2.prabasiva.com"
   },
   "navigation": [
     {
