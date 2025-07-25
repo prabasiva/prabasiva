@@ -10,7 +10,6 @@
     "generate-content": "node scripts/generate-content.js"
   },
   "dependencies": {
-    "@types/js-yaml": "^4.0.9",
     "framer-motion": "^12.23.9",
     "js-yaml": "^4.1.0",
     "lucide-react": "^0.525.0",
@@ -21,6 +20,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/js-yaml": "^4.0.9",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
