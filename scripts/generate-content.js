@@ -19,8 +19,14 @@ export function getContent(): SiteContent {
   return contentData
 }`
 
+// Ensure lib directory exists
+const libDir = path.join(process.cwd(), 'lib')
+if (!fs.existsSync(libDir)) {
+  fs.mkdirSync(libDir, { recursive: true })
+}
+
 // Write the generated content
-const outputPath = path.join(process.cwd(), 'lib', 'content.ts')
+const outputPath = path.join(libDir, 'content.ts')
 fs.writeFileSync(outputPath, tsContent)
 
 console.log('✅ Generated content.ts from content.yaml')
