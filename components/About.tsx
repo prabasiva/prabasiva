@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Code2, Palette, Lightbulb, Users, TrendingUp, Target } from 'lucide-react'
+import Image from 'next/image'
 import { SiteContent } from '@/types/content'
 
 interface AboutProps {
@@ -43,34 +44,23 @@ export default function About({ content }: AboutProps) {
               ))}
             </div>
             
-            {about.skills && (
-              <div>
-                <h3 className="text-2xl font-semibold mb-4">Technical Skills</h3>
-                <div className="space-y-4">
-                  {about.skills.map((category, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, x: 20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.6, delay: index * 0.1 }}
-                  >
-                    <h4 className="text-lg font-medium text-gray-200 mb-2">{category.category}</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {category.items.map((skill, skillIndex) => (
-                        <span
-                          key={skillIndex}
-                          className="px-3 py-1 bg-gray-800 text-gray-300 rounded-full text-sm hover:bg-gray-700 transition-colors"
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
-                    </motion.div>
-                  ))}
-                </div>
-              </div>
-            )}
+            <div className="flex items-center justify-center">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className="relative w-80 h-80"
+              >
+                <Image
+                  src="/praba.png"
+                  alt="Praba Siva - Digital Transformation Leader"
+                  fill
+                  className="object-cover rounded-lg"
+                  priority
+                />
+              </motion.div>
+            </div>
           </div>
           
           {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
