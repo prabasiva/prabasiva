@@ -147,7 +147,7 @@ skills:
 projects:
   - title: "API Platform Transformation at Target"
     description: "Led engineering team as Engineering Leader to develop API gateway handling $100B+ transactions. Implemented Gen-AI for code generation and managed holiday peak loads of $3B in two days."
-    image: "/api-platform.jpg"
+    image: "/apiplatform.png"
     technologies:
       - "Gen-AI"
       - "API Gateway"
