@@ -10,10 +10,9 @@ personal:
 
 # Social Links
 social:
-  github: "https://github.com/prabasiva"
   linkedin: "https://www.linkedin.com/in/prabasiva/"
+  github: "https://github.com/prabasiva"
   twitter: "https://x.com/prabasiva"
-  website: "https://blog2.prabasiva.com"
 
 # Navigation Items
 navigation:
@@ -23,6 +22,8 @@ navigation:
     href: "#experience"
   - name: "Skills"
     href: "#skills"
+  - name: "Blog"
+    href: "https://blog.prabasiva.ai"
   - name: "About"
     href: "#about"
 

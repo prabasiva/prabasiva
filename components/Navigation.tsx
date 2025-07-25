@@ -35,6 +35,12 @@ export default function Navigation({ content }: NavigationProps) {
   }, [content.navigation])
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (href.startsWith('http')) {
+      // External link - let default behavior handle it
+      setIsOpen(false)
+      return
+    }
+    
     e.preventDefault()
     const targetId = href.slice(1)
     const element = document.getElementById(targetId)
