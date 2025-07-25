@@ -1,41 +1,64 @@
-import { Github, Linkedin, Mail, Heart } from 'lucide-react'
+import { Github, Linkedin, Mail, Heart, Globe } from 'lucide-react'
+import { SiteContent } from '@/types/content'
 
-export default function Footer() {
+interface FooterProps {
+  content: SiteContent
+}
+
+export default function Footer({ content }: FooterProps) {
+  const { personal, social, footer } = content
+  
   return (
     <footer className="bg-black text-white py-8 border-t border-gray-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-center space-y-4">
           <div className="flex space-x-6">
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              <Github className="w-5 h-5" />
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              <Linkedin className="w-5 h-5" />
-            </a>
-            <a
-              href="mailto:your.email@example.com"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              <Mail className="w-5 h-5" />
-            </a>
+            {social.github && (
+              <a
+                href={social.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                <Github className="w-5 h-5" />
+              </a>
+            )}
+            {social.linkedin && (
+              <a
+                href={social.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
+            )}
+            {personal.email && (
+              <a
+                href={`mailto:${personal.email}`}
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                <Mail className="w-5 h-5" />
+              </a>
+            )}
+            {social.website && (
+              <a
+                href={social.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                <Globe className="w-5 h-5" />
+              </a>
+            )}
           </div>
           
           <p className="text-gray-400 text-sm flex items-center gap-1">
-            Made with <Heart className="w-4 h-4 text-red-500" /> by Your Name
+            {footer.madeWith} <Heart className="w-4 h-4 text-red-500" /> {personal.name}
           </p>
           
           <p className="text-gray-500 text-xs">
-            © {new Date().getFullYear()} All rights reserved.
+            © {new Date().getFullYear()} {footer.copyright}
           </p>
         </div>
       </div>
