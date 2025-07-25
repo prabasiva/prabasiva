@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { ExternalLink, Github } from 'lucide-react'
+import Image from 'next/image'
 import { SiteContent } from '@/types/content'
 
 interface ProjectsProps {
@@ -35,9 +36,18 @@ export default function Projects({ content }: ProjectsProps) {
                 className="bg-gray-900 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300"
               >
                 <div className="aspect-video bg-gray-800 relative">
-                  <div className="absolute inset-0 flex items-center justify-center text-gray-600">
-                    Project Image
-                  </div>
+                  {project.image ? (
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover"
+                    />
+                  ) : (
+                    <div className="absolute inset-0 flex items-center justify-center text-gray-600">
+                      Project Image
+                    </div>
+                  )}
                 </div>
                 
                 <div className="p-6">
