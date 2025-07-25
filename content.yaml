@@ -36,7 +36,7 @@ hero:
 
 # Experience Section
 experience:
-  - title: "Director of Engineering – API Platform"
+  - title: "Engineering Leader – API Platform"
     company: "Target"
     location: "Minneapolis, USA"
     period: "August 2021 – Current"
@@ -144,7 +144,7 @@ skills:
 # Projects/Achievements Section (replacing generic projects)
 projects:
   - title: "API Platform Transformation at Target"
-    description: "Led engineering team to develop API gateway handling $100B+ transactions. Implemented Gen-AI for code generation and managed holiday peak loads of $3B in two days."
+    description: "Led engineering team as Engineering Leader to develop API gateway handling $100B+ transactions. Implemented Gen-AI for code generation and managed holiday peak loads of $3B in two days."
     image: "/api-platform.jpg"
     technologies:
       - "Gen-AI"
