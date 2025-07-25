@@ -158,7 +158,7 @@ projects:
 
   - title: "Enterprise Data Strategy at Sysco"
     description: "Developed comprehensive data strategy and governance increasing ecommerce sales by 4% month-over-month. Led $1B pricing program across 70+ operating companies."
-    image: "/data-strategy.jpg"
+    image: "/datastrategy.jpg"
     technologies:
       - "Data Governance"
       - "Enterprise Data Platform"
@@ -169,7 +169,7 @@ projects:
 
   - title: "ML-Based Healthcare Solution"
     description: "Spearheaded Machine Learning medication adherence prediction product for payers using patient claims data, avoiding $45MM startup acquisition."
-    image: "/ml-healthcare.jpg"
+    image: "/healthcare.jpg"
     technologies:
       - "Machine Learning"
       - "Healthcare Analytics"
@@ -193,10 +193,6 @@ about:
       year: ""
     - degree: "Master's Degree in Computer Engineering"
       institution: "University of Michigan"
-      year: ""
-    - degree: "Master's Degree in Tamil Literature"
-      institution: "Annamalai University"
-      location: "Tamil Nadu, India"
       year: ""
     - degree: "Bachelor's Degree in Computer Science & Engineering"
       institution: "Madurai Kamaraj University"
