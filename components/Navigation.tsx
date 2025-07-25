@@ -3,21 +3,19 @@
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { SiteContent } from '@/types/content'
 
-const navItems = [
-  { name: 'Home', href: '#home' },
-  { name: 'Experience', href: '#experience' },
-  { name: 'Projects', href: '#projects' },
-  { name: 'About', href: '#about' },
-]
+interface NavigationProps {
+  content: SiteContent
+}
 
-export default function Navigation() {
+export default function Navigation({ content }: NavigationProps) {
   const [isOpen, setIsOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('home')
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = navItems.map(item => item.href.slice(1))
+      const sections = content.navigation.map(item => item.href.slice(1))
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -34,7 +32,7 @@ export default function Navigation() {
 
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+  }, [content.navigation])
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault()
@@ -55,12 +53,12 @@ export default function Navigation() {
             animate={{ opacity: 1, x: 0 }}
             className="text-white font-bold text-xl"
           >
-            Your Name
+            {content.personal.name}
           </motion.div>
 
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              {navItems.map((item) => (
+              {content.navigation.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
@@ -103,7 +101,7 @@ export default function Navigation() {
             className="md:hidden bg-black/90 backdrop-blur-md"
           >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              {navItems.map((item) => (
+              {content.navigation.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}

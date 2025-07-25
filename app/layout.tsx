@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { getContent } from "@/lib/content";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,9 +13,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const content = getContent();
+
 export const metadata: Metadata = {
-  title: "Your Name - Full Stack Developer",
-  description: "Personal portfolio of Your Name - Full Stack Developer specializing in React, Next.js, and modern web technologies",
+  title: `${content.personal.name} - ${content.personal.title}`,
+  description: content.personal.bio,
 };
 
 export default function RootLayout({

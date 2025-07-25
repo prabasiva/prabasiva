@@ -53,19 +53,23 @@ npm start
 
 ## Customization
 
-Update the following files to personalize your portfolio:
+All content is managed through a single YAML file for easy updates:
 
-- `components/Navigation.tsx` - Update "Your Name"
-- `components/Hero.tsx` - Update name, title, bio, and social links
-- `components/Experience.tsx` - Add your work experience
-- `components/Projects.tsx` - Add your projects with images
-- `components/About.tsx` - Update about section and skills
-- `components/Footer.tsx` - Update footer details
-- `app/layout.tsx` - Update metadata for SEO
+**Edit `content.yaml` to customize:**
+- Personal information (name, title, email, bio)
+- Social media links
+- Navigation menu items
+- Hero section content
+- Work experience entries
+- Project showcase
+- About section and skills
+- Footer text
+
+The site automatically loads content from `content.yaml`, so you only need to edit this one file to update your entire portfolio!
 
 ### Adding Project Images
 
-Place your project screenshots in the `public` folder and reference them in `components/Projects.tsx`:
+Place your project screenshots in the `public` folder and reference them in `content.yaml`:
 
 ```typescript
 image: '/your-project-screenshot.jpg'

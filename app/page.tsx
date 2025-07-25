@@ -4,18 +4,21 @@ import Experience from '@/components/Experience'
 import Projects from '@/components/Projects'
 import About from '@/components/About'
 import Footer from '@/components/Footer'
+import { getContent } from '@/lib/content'
 
 export default function Home() {
+  const content = getContent()
+  
   return (
     <>
-      <Navigation />
+      <Navigation content={content} />
       <main>
-        <Hero />
-        <Experience />
-        <Projects />
-        <About />
+        <Hero content={content} />
+        <Experience content={content} />
+        <Projects content={content} />
+        <About content={content} />
       </main>
-      <Footer />
+      <Footer content={content} />
     </>
   )
 }

@@ -2,32 +2,15 @@
 
 import { motion } from 'framer-motion'
 import { Calendar, Building2 } from 'lucide-react'
+import { SiteContent } from '@/types/content'
 
-const experiences = [
-  {
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Company',
-    period: '2022 - Present',
-    description: 'Led development of microservices architecture using Next.js and Node.js. Improved application performance by 40% through optimization strategies.',
-    technologies: ['React', 'Next.js', 'Node.js', 'PostgreSQL', 'AWS'],
-  },
-  {
-    title: 'Full Stack Developer',
-    company: 'Startup Inc',
-    period: '2020 - 2022',
-    description: 'Built and maintained e-commerce platform serving 100k+ users. Implemented real-time features using WebSockets and Redis.',
-    technologies: ['React', 'Express', 'MongoDB', 'Redis', 'Docker'],
-  },
-  {
-    title: 'Frontend Developer',
-    company: 'Digital Agency',
-    period: '2018 - 2020',
-    description: 'Developed responsive web applications for various clients. Collaborated with design team to implement pixel-perfect UI components.',
-    technologies: ['React', 'Vue.js', 'SASS', 'Webpack', 'Git'],
-  },
-]
+interface ExperienceProps {
+  content: SiteContent
+}
 
-export default function Experience() {
+export default function Experience({ content }: ExperienceProps) {
+  const { experience } = content
+
   return (
     <section id="experience" className="py-20 bg-gray-900 text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -45,7 +28,7 @@ export default function Experience() {
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-700" />
             
             <div className="space-y-12">
-              {experiences.map((exp, index) => (
+              {experience.map((exp, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, x: -50 }}
