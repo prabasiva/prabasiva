@@ -1,12 +1,12 @@
 # Personal Information
 personal:
   name: "Praba Siva"
-  title: "Digital Transformation Executive"
-  tagline: "Tech-Savvy Leader with 25+ Years Experience"
+  title: "Chief Strategist, Architect & Engineer"
+  tagline: "Tech-Savvy Leader with hands-on experience"
   email: "email@prabasiva.com"
   phone: "248-631-9534"
   location: "Powell, OH"
-  bio: "Tech-savvy executive with 25+ years of experience in leading IT Strategy, Enterprise Architecture, Data & Analytics, and innovation initiatives to accomplish organization's transformational objectives. Expert in driving change, optimizing workflow, and delivering measurable business value through digital transformation."
+  bio: "Tech-savvy executive with hand-on experience in leading IT Strategy, Enterprise Architecture, Data & Analytics, AI & ML, and innovation initiatives to accomplish organization's transformational objectives. Expert in driving change, optimizing workflow, and delivering measurable business value through digital transformation."
 
 # Social Links
 social:
@@ -30,8 +30,8 @@ navigation:
 # Hero Section
 hero:
   greeting: "Hello, I'm"
-  subtitle: "Digital Transformation Executive"
-  description: "Tech-savvy executive with 25+ years of experience leading IT Strategy, Enterprise Architecture, Data & Analytics, and innovation initiatives. Proven expertise in identifying transformational opportunities and delivering measurable business value through digital transformation."
+  subtitle: "Chief Strategist, Architect & Engineer"
+  description: "Tech-savvy executive with hands on experience in leading IT Strategy, Enterprise Architecture, Data & Analytics, AI & ML, Platform Engineering, API Platform, LLMOps, & Enterprise Agentic AI. Proven expertise in identifying transformational opportunities and delivering measurable business value"
   cta_text: "View My Experience"
   cta_link: "#experience"
 
@@ -54,7 +54,8 @@ experience:
       - "GraphQL"
       - "API Gateway"
       - "Fastly CDN"
-      - "Ollama"
+      - "Google Cloud Platform"
+      - "Rust/Golang"
 
   - title: "Vice President, Digital Services – Design & Delivery"
     company: "Sysco"
@@ -70,7 +71,7 @@ experience:
     technologies:
       - "Enterprise Data Platform"
       - "Stibo Step MDM"
-      - "Alation Metadata"
+      - "AWS Cloud"
       - "DevSecOps"
       - "eCommerce Platform"
 
@@ -87,12 +88,11 @@ experience:
       - "Implemented RPA reference architecture using Automation Anywhere"
     technologies:
       - "Machine Learning"
-      - "GCP"
+      - "Google Cloud Platform"
       - "Blockchain"
       - "Stibo Step"
       - "IBM MDM"
       - "SAP MDG"
-      - "Automation Anywhere"
 
   - title: "Chief Technology Officer"
     company: "Nationwide Financial Services"
@@ -104,9 +104,11 @@ experience:
       - "Leveraged Azure busting capability for model development & deployment agility"
       - "Completed transformation business launch within budget and regulatory requirements"
     technologies:
-      - "Azure"
+      - "Azure/GPU"
       - "Actuarial Systems"
-      - "Enterprise Architecture"
+      - "Enterprise Data Platform"
+      - "eCommerce Platform"
+
 
 # Core Competencies/Skills Section
 skills:
