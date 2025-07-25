@@ -68,6 +68,7 @@ export default function Navigation({ content }: NavigationProps) {
                 <a
                   key={item.name}
                   href={item.href}
+                  target={item.href.startsWith('http') ? '_self' : undefined}
                   onClick={(e) => handleNavClick(e, item.href)}
                   className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                     activeSection === item.href.slice(1)
@@ -111,6 +112,7 @@ export default function Navigation({ content }: NavigationProps) {
                 <a
                   key={item.name}
                   href={item.href}
+                  target={item.href.startsWith('http') ? '_self' : undefined}
                   onClick={(e) => handleNavClick(e, item.href)}
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
                     activeSection === item.href.slice(1)
