@@ -50,8 +50,8 @@ export default function About() {
             <div>
               <h3 className="text-2xl font-semibold mb-4">Who I Am</h3>
               <p className="text-gray-300 mb-4">
-                I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. 
-                With over 5 years of experience in web development, I've had the opportunity to work on diverse 
+                I&apos;m a passionate full-stack developer with a love for creating elegant solutions to complex problems. 
+                With over 5 years of experience in web development, I&apos;ve had the opportunity to work on diverse 
                 projects ranging from startups to enterprise applications.
               </p>
               <p className="text-gray-300 mb-4">
@@ -59,7 +59,7 @@ export default function About() {
                 a career focused on building meaningful digital experiences that make a difference.
               </p>
               <p className="text-gray-300">
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
+                When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, 
                 or sharing knowledge through technical writing and mentoring.
               </p>
             </div>
