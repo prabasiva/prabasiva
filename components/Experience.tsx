@@ -58,6 +58,22 @@ export default function Experience({ content }: ExperienceProps) {
                     
                     <p className="text-gray-300 mb-4">{exp.description}</p>
                     
+                    {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                    {('achievements' in exp) && (exp as any).achievements && (
+                      <div className="mb-4">
+                        <h4 className="text-lg font-medium text-white mb-2">Key Achievements:</h4>
+                        <ul className="text-gray-300 text-sm space-y-1">
+                          {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                          {(exp as any).achievements.map((achievement: string, achIndex: number) => (
+                            <li key={achIndex} className="flex items-start">
+                              <span className="text-blue-400 mr-2">•</span>
+                              {achievement}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                    
                     <div className="flex flex-wrap gap-2">
                       {exp.technologies.map((tech, techIndex) => (
                         <span

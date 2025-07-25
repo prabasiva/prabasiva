@@ -1,6 +1,7 @@
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
 import Experience from '@/components/Experience'
+import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
 import About from '@/components/About'
 import Footer from '@/components/Footer'
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Hero content={content} />
         <Experience content={content} />
+        <Skills content={content} />
         <Projects content={content} />
         <About content={content} />
       </main>
