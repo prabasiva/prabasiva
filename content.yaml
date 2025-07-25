@@ -1,16 +1,17 @@
 # Personal Information
 personal:
   name: "Praba Siva"
-  title: "Chief Strategist, Architect & Engineer"
-  tagline: "Creative Problem Solver"
-  email: "mail@prabasiva.com"
-  location: "Ohio, USA"
-  bio: "Passionate about building transformational business models & process to drive bottom and top lines. Specializing in Agentic AI development and deployment"
+  title: "Digital Transformation Executive"
+  tagline: "Tech-Savvy Leader with 25+ Years Experience"
+  email: "email@prabasiva.com"
+  phone: "248-631-9534"
+  location: "Powell, OH"
+  bio: "Tech-savvy executive with 25+ years of experience in leading IT Strategy, Enterprise Architecture, Data & Analytics, and innovation initiatives to accomplish organization's transformational objectives. Expert in driving change, optimizing workflow, and delivering measurable business value through digital transformation."
 
 # Social Links
 social:
   github: "https://github.com/prabasiva"
-  linkedin: "https://linkedin.com/in/prabasiva"
+  linkedin: "https://www.linkedin.com/in/prabasiva/"
   twitter: "https://x.com/prabasiva"
   website: "https://blog2.prabasiva.com"
 
@@ -20,141 +21,201 @@ navigation:
     href: "#home"
   - name: "Experience"
     href: "#experience"
-  - name: "Projects"
-    href: "#projects"
+  - name: "Skills"
+    href: "#skills"
   - name: "About"
     href: "#about"
 
 # Hero Section
 hero:
   greeting: "Hello, I'm"
-  subtitle: "Chief Strategist, Architect & Engineer"
-  description: "Passionate about building transformational business models & process to drive bottom and top lines. Specializing in Agentic AI development and deployment"
-  cta_text: "View My Work"
+  subtitle: "Digital Transformation Executive"
+  description: "Tech-savvy executive with 25+ years of experience leading IT Strategy, Enterprise Architecture, Data & Analytics, and innovation initiatives. Proven expertise in identifying transformational opportunities and delivering measurable business value through digital transformation."
+  cta_text: "View My Experience"
   cta_link: "#experience"
 
 # Experience Section
 experience:
-  - title: "Senior Full Stack Developer"
-    company: "Tech Company"
-    period: "2022 - Present"
-    description: "Led development of microservices architecture using Next.js and Node.js. Improved application performance by 40% through optimization strategies."
+  - title: "Director of Engineering – API Platform"
+    company: "Target"
+    location: "Minneapolis, USA"
+    period: "August 2021 – Current"
+    description: "Lead top-notch engineering team to enrich internally developed API gateway flowing $100B business transactions. Successfully implemented Gen-AI solutions, automated GraphQL deployment, and managed holiday peak loads (~$3B in two days). Established monitoring dashboards and designed GraphQL solutions across 2000+ stores."
+    achievements:
+      - "Implemented Gen-AI solution for auto-generating API sample code using Langchain and Ollama"
+      - "Deployed automated GraphQL solution enabling APIs for backend databases"
+      - "Launched control plane automating management of hundreds of API Gateway proxies"
+      - "Managed holiday peak load supporting $3B in two-day business volume"
+      - "Designed GraphQL solution for 2000+ stores integrated with PoS systems"
     technologies:
-      - "React"
-      - "Next.js"
-      - "Node.js"
-      - "PostgreSQL"
-      - "AWS"
-  
-  - title: "Full Stack Developer"
-    company: "Startup Inc"
-    period: "2020 - 2022"
-    description: "Built and maintained e-commerce platform serving 100k+ users. Implemented real-time features using WebSockets and Redis."
-    technologies:
-      - "React"
-      - "Express"
-      - "MongoDB"
-      - "Redis"
-      - "Docker"
-  
-  - title: "Frontend Developer"
-    company: "Digital Agency"
-    period: "2018 - 2020"
-    description: "Developed responsive web applications for various clients. Collaborated with design team to implement pixel-perfect UI components."
-    technologies:
-      - "React"
-      - "Vue.js"
-      - "SASS"
-      - "Webpack"
-      - "Git"
+      - "Gen-AI"
+      - "Langchain"
+      - "GraphQL"
+      - "API Gateway"
+      - "Fastly CDN"
+      - "Ollama"
 
-# Projects Section
+  - title: "Vice President, Digital Services – Design & Delivery"
+    company: "Sysco"
+    location: "Texas, USA"
+    period: "2020 – August 2021"
+    description: "Managed internationally dispersed team across US, UK, Canada, Sri Lanka, and India. Responsible for Enterprise Architecture supporting $100MM yearly project portfolio. Led data engineering, enterprise services, and digital asset management teams."
+    achievements:
+      - "Developed enterprise data strategy improving product attribution and quality"
+      - "Established data governance function increasing ecommerce sales by 4% month-over-month"
+      - "Led pricing program implementation expected to increase sales by $1B across 70+ companies"
+      - "Developed roadmap for international markets saving £1MM in UK specialty company"
+      - "Created architecture governance function for distributed order management"
+    technologies:
+      - "Enterprise Data Platform"
+      - "Stibo Step MDM"
+      - "Alation Metadata"
+      - "DevSecOps"
+      - "eCommerce Platform"
+
+  - title: "Vice President, Enterprise Chief Architect"
+    company: "Cardinal Health"
+    location: "Ohio, USA"
+    period: "2017 – 2020"
+    description: "Oversaw end-to-end architecture for $150MM project portfolio. Led development of technology accelerators including enterprise data platform, cloud architecture patterns, and eCommerce reference implementation."
+    achievements:
+      - "Spearheaded ML-based medication adherence prediction avoiding $45MM startup acquisition"
+      - "Provided Product Master Data management for $7B Medical device company acquisition"
+      - "Consolidated ERPs across business units and migrated to GCP cloud"
+      - "Partnered with Mediledger on blockchain solution for DCSSA regulatory compliance"
+      - "Implemented RPA reference architecture using Automation Anywhere"
+    technologies:
+      - "Machine Learning"
+      - "GCP"
+      - "Blockchain"
+      - "Stibo Step"
+      - "IBM MDM"
+      - "SAP MDG"
+      - "Automation Anywhere"
+
+  - title: "Chief Technology Officer"
+    company: "Nationwide Financial Services"
+    location: "Ohio, USA"
+    period: "2015 – 2017"
+    description: "Managed architecture solution design for $120MM portfolio with $12MM budget and 50+ staff members. Led enterprise strategic plan to consolidate application landscape and reduce operational costs."
+    achievements:
+      - "Headed actuarial modernization platform design increasing data quality"
+      - "Leveraged Azure busting capability for model development & deployment agility"
+      - "Completed transformation business launch within budget and regulatory requirements"
+    technologies:
+      - "Azure"
+      - "Actuarial Systems"
+      - "Enterprise Architecture"
+
+# Core Competencies/Skills Section
+skills:
+  - category: "Data & Analytics"
+    items:
+      - "Data Strategy & Governance"
+      - "Enterprise Data Platform"
+      - "Master Data Management"
+      - "Machine Learning"
+      - "Metadata Management"
+
+  - category: "Architecture & Engineering"
+    items:
+      - "Enterprise Architecture"
+      - "API Management"
+      - "GraphQL"
+      - "Microservices"
+      - "Cloud Architecture (GCP, Azure)"
+
+  - category: "Emerging Technologies"
+    items:
+      - "GenAI & Langchain"
+      - "Automation & RPA"
+      - "Blockchain"
+      - "DevSecOps"
+      - "Digital Platforms"
+
+  - category: "Business & Strategy"
+    items:
+      - "Digital Transformation"
+      - "Risk Management"
+      - "Architecture Governance"
+      - "Change Management"
+      - "eCommerce Strategy"
+
+# Projects/Achievements Section (replacing generic projects)
 projects:
-  - title: "E-Commerce Platform"
-    description: "Full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard."
-    image: "/placeholder-project1.jpg"
+  - title: "API Platform Transformation at Target"
+    description: "Led engineering team to develop API gateway handling $100B+ transactions. Implemented Gen-AI for code generation and managed holiday peak loads of $3B in two days."
+    image: "/api-platform.jpg"
     technologies:
-      - "Next.js"
-      - "TypeScript"
-      - "Stripe"
-      - "PostgreSQL"
-    liveUrl: "https://example.com"
-    githubUrl: "https://github.com/yourusername/project1"
-  
-  - title: "Task Management App"
-    description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team features."
-    image: "/placeholder-project2.jpg"
+      - "Gen-AI"
+      - "API Gateway"
+      - "GraphQL"
+      - "Langchain"
+    metrics: "$100B+ transactions, 2000+ stores"
+    period: "2021-Present"
+
+  - title: "Enterprise Data Strategy at Sysco"
+    description: "Developed comprehensive data strategy and governance increasing ecommerce sales by 4% month-over-month. Led $1B pricing program across 70+ operating companies."
+    image: "/data-strategy.jpg"
     technologies:
-      - "React"
-      - "Node.js"
-      - "Socket.io"
-      - "MongoDB"
-    liveUrl: "https://example.com"
-    githubUrl: "https://github.com/yourusername/project2"
-  
-  - title: "AI Content Generator"
-    description: "AI-powered content generation tool using OpenAI API for creating blog posts, social media content, and more."
-    image: "/placeholder-project3.jpg"
+      - "Data Governance"
+      - "Enterprise Data Platform"
+      - "Stibo Step MDM"
+      - "Alation"
+    metrics: "4% sales increase, $1B revenue impact"
+    period: "2020-2021"
+
+  - title: "ML-Based Healthcare Solution"
+    description: "Spearheaded Machine Learning medication adherence prediction product for payers using patient claims data, avoiding $45MM startup acquisition."
+    image: "/ml-healthcare.jpg"
     technologies:
-      - "Next.js"
-      - "OpenAI API"
-      - "Tailwind CSS"
-      - "Vercel"
-    liveUrl: "https://example.com"
-    githubUrl: "https://github.com/yourusername/project3"
+      - "Machine Learning"
+      - "Healthcare Analytics"
+      - "Claims Data"
+      - "Predictive Modeling"
+    metrics: "$45MM cost avoidance"
+    period: "2017-2020"
 
 # About Section
 about:
   title: "About Me"
-  subtitle: "Who I Am"
+  subtitle: "Digital Transformation Leader"
   bio:
-    - "I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. With over 5 years of experience in web development, I've had the opportunity to work on diverse projects ranging from startups to enterprise applications."
-    - "My journey in tech started with curiosity about how things work on the web, and it has evolved into a career focused on building meaningful digital experiences that make a difference."
-    - "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge through technical writing and mentoring."
-  
-  skills:
-    - category: "Frontend"
-      items:
-        - "React"
-        - "Next.js"
-        - "TypeScript"
-        - "Tailwind CSS"
-        - "Framer Motion"
-    
-    - category: "Backend"
-      items:
-        - "Node.js"
-        - "Express"
-        - "PostgreSQL"
-        - "MongoDB"
-        - "REST APIs"
-    
-    - category: "Tools"
-      items:
-        - "Git"
-        - "Docker"
-        - "AWS"
-        - "Vercel"
-        - "VS Code"
-  
+    - "I am a tech-savvy executive with 25+ years of experience in leading IT Strategy, Enterprise Architecture, Data & Analytics, and innovation initiatives. My expertise lies in identifying transformational opportunities and developing frameworks that align with senior executive vision to deliver new business value."
+    - "Throughout my career, I have successfully led enterprise change management initiatives, optimized workflows, and resolved complex technical challenges while ensuring compliance with industry standards. I excel at fostering relationships with key stakeholders, clients, and suppliers to drive successful digital transformation outcomes."
+    - "My recent focus has been on leveraging emerging technologies like GenAI, advanced analytics, and cloud platforms to create scalable solutions that deliver measurable business impact. I have a proven track record of managing large-scale transformations across Fortune 500 companies in retail, healthcare, financial services, and supply chain industries."
+
+  education:
+    - degree: "Master's Degree in Applied & Computational Mathematics"
+      institution: "University of Michigan"
+      year: ""
+    - degree: "Bachelor's Degree in Computer Science & Engineering"
+      institution: "Madurai Kamaraj University"
+      location: "Tamil Nadu, India"
+      year: ""
+    - degree: "Master's Degree in Tamil Literature"
+      institution: "Annamalai University"
+      location: "Tamil Nadu, India"
+      year: ""
+
   highlights:
-    - icon: "Code2"
-      title: "Clean Code"
-      description: "Writing maintainable, scalable, and well-documented code"
-    
-    - icon: "Palette"
-      title: "Design Focus"
-      description: "Creating beautiful and intuitive user interfaces"
-    
-    - icon: "Lightbulb"
-      title: "Problem Solving"
-      description: "Finding creative solutions to complex challenges"
-    
+    - icon: "TrendingUp"
+      title: "Business Impact"
+      description: "Delivered $1B+ revenue impact through strategic digital transformation initiatives"
+
     - icon: "Users"
-      title: "Collaboration"
-      description: "Working effectively in cross-functional teams"
+      title: "Team Leadership"
+      description: "Led internationally dispersed teams across US, UK, Canada, Sri Lanka, and India"
+
+    - icon: "Lightbulb"
+      title: "Innovation"
+      description: "Pioneered GenAI implementations and blockchain solutions for regulatory compliance"
+
+    - icon: "Target"
+      title: "Scale"
+      description: "Managed $100B+ transaction volumes and $150MM+ project portfolios"
 
 # Footer
 footer:
   copyright: "All rights reserved."
-  madeWith: "Made with ❤️ by"
+  madeWith: "Designed & Developed by"

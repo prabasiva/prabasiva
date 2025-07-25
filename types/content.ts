@@ -3,6 +3,7 @@ export interface PersonalInfo {
   title: string
   tagline: string
   email: string
+  phone?: string
   location: string
   bio: string
 }
@@ -30,8 +31,10 @@ export interface HeroContent {
 export interface Experience {
   title: string
   company: string
+  location?: string
   period: string
   description: string
+  achievements?: string[]
   technologies: string[]
 }
 
@@ -42,6 +45,8 @@ export interface Project {
   technologies: string[]
   liveUrl?: string
   githubUrl?: string
+  metrics?: string
+  period?: string
 }
 
 export interface Skill {
@@ -59,7 +64,13 @@ export interface AboutContent {
   title: string
   subtitle: string
   bio: string[]
-  skills: Skill[]
+  skills?: Skill[]
+  education?: {
+    degree: string
+    institution: string
+    location?: string
+    year?: string
+  }[]
   highlights: Highlight[]
 }
 
@@ -74,6 +85,7 @@ export interface SiteContent {
   navigation: NavigationItem[]
   hero: HeroContent
   experience: Experience[]
+  skills?: Skill[]
   projects: Project[]
   about: AboutContent
   footer: FooterContent
