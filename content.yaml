@@ -31,7 +31,7 @@ navigation:
 hero:
   greeting: "Hello, I'm"
   subtitle: "Chief Strategist, Architect & Engineer"
-  description: "Tech executive with hands on experience in leading IT Strategy, Enterprise Architecture, Data & Analytics, AI & ML, Platform Engineering, API Platform, LLMOps, & Enterprise Agentic AI." 
+  description: "Technology executive with hands on experience in leading IT Strategy, Enterprise Architecture, AI & ML, Platform Engineering, LLMOps, & Enterprise Agentic AI." 
   cta_text: "View My Experience"
   cta_link: "#experience"
 
