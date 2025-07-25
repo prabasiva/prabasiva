@@ -28,8 +28,8 @@ navigation:
 # Hero Section
 hero:
   greeting: "Hello, I'm"
-  subtitle: "Full Stack Developer & Creative Problem Solver"
-  description: "Passionate about building beautiful, functional web experiences. Specializing in React, Next.js, and modern web technologies."
+  subtitle: "Chief Strategist, Architect & Engineer"
+  description: "Passionate about building transformational business models & process to drive bottom and top lines. Specializing in Agentic AI development and deployment"
   cta_text: "View My Work"
   cta_link: "#experience"
 
