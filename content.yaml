@@ -31,7 +31,7 @@ navigation:
 hero:
   greeting: "Hello, I'm"
   subtitle: "Chief Strategist, Architect & Engineer"
-  description: "Tech-savvy executive with hands on experience in leading IT Strategy, Enterprise Architecture, Data & Analytics, AI & ML, Platform Engineering, API Platform, LLMOps, & Enterprise Agentic AI. Proven expertise in identifying transformational opportunities and delivering measurable business value"
+  description: "Tech executive with hands on experience in leading IT Strategy, Enterprise Architecture, Data & Analytics, AI & ML, Platform Engineering, API Platform, LLMOps, & Enterprise Agentic AI." 
   cta_text: "View My Experience"
   cta_link: "#experience"
 
@@ -41,11 +41,10 @@ experience:
     company: "Target"
     location: "Minneapolis, USA"
     period: "August 2021 – Current"
-    description: "Lead top-notch engineering team to enrich internally developed API gateway flowing $100B business transactions. Successfully implemented Gen-AI solutions, automated GraphQL deployment, and managed holiday peak loads (~$3B in two days). Established monitoring dashboards and designed GraphQL solutions across 2000+ stores."
+    description: "Build and lead talented engineering team to introduce new capabilities to an internally developed API gateway flowing $100B business transactions"
     achievements:
       - "Implemented Gen-AI solution for auto-generating API sample code using Langchain and Ollama"
-      - "Deployed automated GraphQL solution enabling APIs for backend databases"
-      - "Launched control plane automating management of hundreds of API Gateway proxies"
+      - "Launched control plane to automate the management of hundreds of API Gateway proxies"
       - "Managed holiday peak load supporting $3B in two-day business volume"
       - "Designed GraphQL solution for 2000+ stores integrated with PoS systems"
     technologies:
@@ -63,7 +62,7 @@ experience:
     period: "2020 – August 2021"
     description: "Managed internationally dispersed team across US, UK, Canada, Sri Lanka, and India. Responsible for Enterprise Architecture supporting $100MM yearly project portfolio. Led data engineering, enterprise services, and digital asset management teams."
     achievements:
-      - "Developed enterprise data strategy improving product attribution and quality"
+      - "Developed enterprise data strategy and improved product attribution and quality"
       - "Established data governance function increasing ecommerce sales by 4% month-over-month"
       - "Led pricing program implementation expected to increase sales by $1B across 70+ companies"
       - "Developed roadmap for international markets saving £1MM in UK specialty company"
@@ -112,37 +111,37 @@ experience:
 
 # Core Competencies/Skills Section
 skills:
-  - category: "Data & Analytics"
+  - category: "Data & Architecture"
     items:
       - "Data Strategy & Governance"
       - "Enterprise Data Platform"
       - "Master Data Management"
-      - "Machine Learning"
-      - "Metadata Management"
-
-  - category: "Architecture & Engineering"
-    items:
+      - "Imaging/Document Pipeline"
       - "Enterprise Architecture"
+
+  - category: "AI & ML"
+    items:
+      - "Regression Analysis"
       - "API Management"
       - "GraphQL"
       - "Microservices"
       - "Cloud Architecture (GCP, Azure)"
 
-  - category: "Emerging Technologies"
+  - category: "Agentic AI"
     items:
-      - "GenAI & Langchain"
-      - "Automation & RPA"
-      - "Blockchain"
-      - "DevSecOps"
-      - "Digital Platforms"
+      - "AI Memory Management"
+      - "Rust"
+      - "Vector DB - Qdrant"
+      - "Agent Orchestration"
+      - "LLM - Anthropic, OpenAI"
 
-  - category: "Business & Strategy"
+  - category: "Platform Engineering"
     items:
-      - "Digital Transformation"
-      - "Risk Management"
-      - "Architecture Governance"
-      - "Change Management"
-      - "eCommerce Strategy"
+      - "Open Telemtry"
+      - "IAM/IDM - Keycloak"
+      - "Kubernetes"
+      - "Envoy/HAProxy"
+      - "GCP/AWS/Azure/Vercel"
 
 # Projects/Achievements Section (replacing generic projects)
 projects:
@@ -184,7 +183,7 @@ about:
   title: "About Me"
   subtitle: "Digital Transformation Leader"
   bio:
-    - "I am a tech-savvy executive with 25+ years of experience in leading IT Strategy, Enterprise Architecture, Data & Analytics, and innovation initiatives. My expertise lies in identifying transformational opportunities and developing frameworks that align with senior executive vision to deliver new business value."
+    - "I am a technology executive with hands on experience in leading IT Strategy, Enterprise Architecture, Data & Analytics, AI & ML, Platform Engineering, API Platform, LLMOps & Enterprise Agentic AI. My expertise lies in identifying transformational opportunities and developing frameworks that align with senior executive vision to deliver new business value."
     - "Throughout my career, I have successfully led enterprise change management initiatives, optimized workflows, and resolved complex technical challenges while ensuring compliance with industry standards. I excel at fostering relationships with key stakeholders, clients, and suppliers to drive successful digital transformation outcomes."
     - "My recent focus has been on leveraging emerging technologies like GenAI, advanced analytics, and cloud platforms to create scalable solutions that deliver measurable business impact. I have a proven track record of managing large-scale transformations across Fortune 500 companies in retail, healthcare, financial services, and supply chain industries."
 
@@ -192,12 +191,15 @@ about:
     - degree: "Master's Degree in Applied & Computational Mathematics"
       institution: "University of Michigan"
       year: ""
-    - degree: "Bachelor's Degree in Computer Science & Engineering"
-      institution: "Madurai Kamaraj University"
-      location: "Tamil Nadu, India"
+    - degree: "Master's Degree in Computer Engineering"
+      institution: "University of Michigan"
       year: ""
     - degree: "Master's Degree in Tamil Literature"
       institution: "Annamalai University"
+      location: "Tamil Nadu, India"
+      year: ""
+    - degree: "Bachelor's Degree in Computer Science & Engineering"
+      institution: "Madurai Kamaraj University"
       location: "Tamil Nadu, India"
       year: ""
 
