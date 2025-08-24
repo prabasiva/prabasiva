@@ -22,6 +22,8 @@ navigation:
     href: "#experience"
   - name: "Skills"
     href: "#skills"
+  - name: "Docs"
+    href: "https://docs.prabasiva.ai"
   - name: "Blog"
     href: "https://blog.prabasiva.ai"
   - name: "About"
