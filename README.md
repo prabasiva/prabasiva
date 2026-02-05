@@ -29,10 +29,11 @@ I am a technologist with 28+ years of experience bridging the gap between theore
 > **Systems Engineering**
 > - Rust programming for performance-critical and reliable systems
 > - Automation of infrastructure, workflows, and analytical pipelines
+> - API Gateway, Content Delivery Network 
 >
 ## Philosophy
 >
-> The same mathematical structures that describe quantum states and cosmological evolution also power the algorithms we deploy daily.  The emergence of agentic AI represents a convergence of > my interests: linear algebra underpins transformer architectures, information theory governs context windows, and the challenge of building systems that learn continuously.
+> The same mathematical structures that describe quantum states and cosmological evolution also power the algorithms we deploy daily.  The emergence of agentic AI represents a convergence of my interests: linear algebra underpins transformer architectures, information theory governs context windows, and the challenge of building systems that learn continuously.
 
 ## Background
 
@@ -48,7 +49,7 @@ I am a technologist with 28+ years of experience bridging the gap between theore
 ## Current Work
 
 > 
-> Building systems in Rust that help better to understand cosmos, galaxy clusters, Agentic AI that better manage memory, reason over context, and learn from interaction. Exploring the Agentic AI help to accelerate our understanding of Universe. 
+> Building systems in Rust that help better to understand cosmos, galaxy clusters. Building Agentic AI that better manage memory, reason over context, and learn from interaction. Exploring the Agentic AI to accelerate our understanding of Universe. 
 ---
 
 
