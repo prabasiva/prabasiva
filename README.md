@@ -7,7 +7,7 @@
 
 **Just Curious**
 
-I am a technologist with 28+ years of experience bridging the gap between theoretical foundations and practical systems. My work sits at the intersection of mathematics, physics, and software engineering.
+I am a technologist with 28+ years of experience bridging the gap between theoretical foundations and practical systems. My work sits at the intersection of mathematics, physics, humans and software engineering.
 
 ## Areas of Interest
 
