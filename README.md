@@ -1,9 +1,5 @@
   # Praba Siva
 
-![](https://img.shields.io/badge/Role-Technologist-blue)
-![](https://img.shields.io/badge/Experience-28%2B%20Years-green)
-![](https://img.shields.io/badge/Focus-Agentic%20AI-purple)
-![](https://img.shields.io/badge/Language-Rust-orange)
 
 **Just Curious**
 
