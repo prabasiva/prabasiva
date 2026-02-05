@@ -1,118 +1,56 @@
-# Personal Portfolio Website
+  # Praba Siva
 
-A modern, responsive personal portfolio website built with Next.js, TypeScript, and Tailwind CSS, inspired by the Astro Zen theme.
+![](https://img.shields.io/badge/Role-Technologist-blue)
+![](https://img.shields.io/badge/Experience-28%2B%20Years-green)
+![](https://img.shields.io/badge/Focus-Agentic%20AI-purple)
+![](https://img.shields.io/badge/Language-Rust-orange)
 
-## Features
+**Just Curious**
 
-- 🎨 Modern, minimalist design with dark theme
-- 📱 Fully responsive on all devices
-- ⚡ Fast performance with Next.js
-- 🎭 Smooth animations with Framer Motion
-- 📝 TypeScript for type safety
-- 🎯 SEO optimized
-- 🚀 Ready for Vercel deployment
+I am a technologist with 28+ years of experience bridging the gap between theoretical foundations and practical systems. My work sits at the intersection of mathematics, physics, and software engineering.
 
-## Getting Started
+## Areas of Interest
 
-### Prerequisites
+> 
+> **Theoretical Foundations**
+> - Cosmology and the large-scale structure of the universe
+> - Quantum mechanics and its computational implications
+> - Linear Algebra as the language of modern computation
+> - Applied Mathematics for modeling complex systems
 
-- Node.js 18+ 
-- npm or yarn
+> 
+> **Agentic AI Systems**
+> - Memory management architectures for persistent agent state
+> - Context engineering for efficient reasoning and retrieval
+> - Continuous learning systems that adapt without catastrophic forgetting
+> - Building autonomous agents that reason, plan, and execute
 
-### Installation
+> 
+> **Systems Engineering**
+> - Rust programming for performance-critical and reliable systems
+> - Automation of infrastructure, workflows, and analytical pipelines
+>
+## Philosophy
+>
+> The same mathematical structures that describe quantum states and cosmological evolution also power the algorithms we deploy daily.  The emergence of agentic AI represents a convergence of > my interests: linear algebra underpins transformer architectures, information theory governs context windows, and the challenge of building systems that learn continuously.
 
-```bash
-npm install
-```
+## Background
 
-### Development
+| Institution | Subject |
+|-------------|-------|
+|  Annamalai University | Graduate - Tamil Literature| 
+|  University of Michigan -  Rackham Graduate School | Graduate - Applied & Computation Mathematics | 
+|  University of Michigan -  Rackham Graduate School | Graduate - Computer Engineering| 
+|  Madurai Kamaraj University | Undergraduate - Computer Engineering| 
+| MIT Sloan School of Management | Certificate - Machine Learning in Business |
+| Cornell University | Certificate - Digital Transformation and Executive Leadership |
 
-```bash
-npm run dev
-```
+## Current Work
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> 
+> Building systems in Rust that help better to understand cosmos, galaxy clusters, Agentic AI that better manage memory, reason over context, and learn from interaction. Exploring the Agentic AI help to accelerate our understanding of Universe. 
+---
 
-### Build
 
-```bash
-npm run build
-```
+[prabasiva.ai](https://prabasiva.ai)
 
-### Production
-
-```bash
-npm start
-```
-
-## Deployment on Vercel
-
-1. Push your code to GitHub
-2. Import your GitHub repository on [Vercel](https://vercel.com/new)
-3. Deploy with default settings - no configuration needed!
-
-## Customization
-
-All content is managed through a single YAML file for easy updates:
-
-**Edit `content.yaml` to customize:**
-- Personal information (name, title, email, bio)
-- Social media links
-- Navigation menu items
-- Hero section content
-- Work experience entries
-- Project showcase
-- About section and skills
-- Footer text
-
-The site automatically loads content from `content.yaml`, so you only need to edit this one file to update your entire portfolio!
-
-### Adding Project Images
-
-Place your project screenshots in the `public` folder and reference them in `content.yaml`:
-
-```typescript
-image: '/your-project-screenshot.jpg'
-```
-
-## Project Structure
-
-```
-.
-├── app/
-│   ├── globals.css      # Global styles
-│   ├── layout.tsx       # Root layout
-│   └── page.tsx         # Home page
-├── components/
-│   ├── Navigation.tsx   # Navigation bar
-│   ├── Hero.tsx        # Hero section
-│   ├── Experience.tsx  # Work experience
-│   ├── Projects.tsx    # Projects showcase
-│   ├── About.tsx       # About section
-│   └── Footer.tsx      # Footer
-└── public/             # Static assets
-```
-
-## Tech Stack
-
-- **Framework**: Next.js 15
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Font**: Geist Sans & Mono
-- **Deployment**: Vercel
-
-## Performance
-
-- Lighthouse score: 95+ (Performance, Accessibility, Best Practices, SEO)
-- First Contentful Paint: < 1s
-- Time to Interactive: < 2s
-
-## License
-
-MIT License - feel free to use this template for your own portfolio!
-
-## Acknowledgments
-
-Design inspired by the [Astro Zen](https://astro-zen.vercel.app/) theme.
