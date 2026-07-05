@@ -51,6 +51,7 @@ I am a technologist with 28+ years of experience bridging the gap between theore
 
 | Institution | Subject |
 |-------------|-------|
+|  University of North Dakota | Ph.D. - Space Computing (in progress) |
 |  Annamalai University | Graduate - Tamil Literature| 
 |  University of Michigan -  Rackham Graduate School | Graduate - Applied & Computation Mathematics | 
 |  University of Michigan -  Rackham Graduate School | Graduate - Computer Engineering| 
