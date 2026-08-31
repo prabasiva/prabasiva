@@ -24,6 +24,8 @@ navigation:
     href: "#skills"
   - name: "Docs"
     href: "https://docs.prabasiva.ai"
+  - name: "Space"
+    href: "https://space.prabasiva.ai"
   - name: "Blog"
     href: "https://blog.prabasiva.ai"
   - name: "About"
