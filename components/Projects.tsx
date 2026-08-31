@@ -69,8 +69,6 @@ export default function Projects({ content }: ProjectsProps) {
                     {project.liveUrl && (
                       <a
                         href={project.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
                         className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
                       >
                         <ExternalLink className="w-4 h-4" />
@@ -80,8 +78,6 @@ export default function Projects({ content }: ProjectsProps) {
                     {project.githubUrl && (
                       <a
                         href={project.githubUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
                         className="flex items-center gap-2 text-gray-400 hover:text-gray-300 transition-colors"
                       >
                         <Github className="w-4 h-4" />

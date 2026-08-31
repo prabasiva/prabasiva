@@ -77,6 +77,7 @@ export interface AboutContent {
 export interface FooterContent {
   copyright: string
   madeWith: string
+  links?: NavigationItem[]
 }
 
 export interface SiteContent {

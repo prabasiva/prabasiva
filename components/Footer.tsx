@@ -16,8 +16,6 @@ export default function Footer({ content }: FooterProps) {
             {social.github && (
               <a
                 href={social.github}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Github className="w-5 h-5" />
@@ -26,8 +24,6 @@ export default function Footer({ content }: FooterProps) {
             {social.linkedin && (
               <a
                 href={social.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
@@ -44,8 +40,6 @@ export default function Footer({ content }: FooterProps) {
             {social.website && (
               <a
                 href={social.website}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Globe className="w-5 h-5" />
@@ -53,6 +47,20 @@ export default function Footer({ content }: FooterProps) {
             )}
           </div>
           
+          {footer.links && footer.links.length > 0 && (
+            <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+              {footer.links.map((link) => (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className="text-gray-400 hover:text-white text-sm transition-colors"
+                >
+                  {link.name}
+                </a>
+              ))}
+            </div>
+          )}
+
           <p className="text-gray-400 text-sm flex items-center gap-1">
             {footer.madeWith} <Heart className="w-4 h-4 text-red-500" /> {personal.name}
           </p>

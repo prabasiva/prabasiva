@@ -43,8 +43,6 @@ export default function Hero({ content }: HeroProps) {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
                 href={social.github}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
               >
                 <Github className="w-6 h-6" />
@@ -56,8 +54,6 @@ export default function Hero({ content }: HeroProps) {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
                 href={social.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
               >
                 <Linkedin className="w-6 h-6" />
@@ -80,8 +76,6 @@ export default function Hero({ content }: HeroProps) {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
                 href={social.website}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
               >
                 <Globe className="w-6 h-6" />

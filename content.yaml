@@ -22,10 +22,12 @@ navigation:
     href: "#experience"
   - name: "Skills"
     href: "#skills"
-  - name: "Docs"
+  - name: "Tech"
     href: "https://docs.prabasiva.ai"
   - name: "Space"
     href: "https://space.prabasiva.ai"
+  - name: "Research"
+    href: "https://research.prabasiva.ai"
   - name: "Blog"
     href: "https://blog.prabasiva.ai"
   - name: "About"
@@ -115,6 +117,17 @@ experience:
 
 # Core Competencies/Skills Section
 skills:
+  - category: "Space Technologies"
+    items:
+      - "Satellite Constellation Design"
+      - "Orbital Mechanics & Mission Design"
+      - "Space-Based Compute / Orbital Datacenters"
+      - "CubeSat & SmallSat Systems"
+      - "Onboard Edge AI & Spacecraft Autonomy"
+      - "Ground Segment & Downlink Planning"
+      - "Link Budget & SATCOM"
+      - "Radiation-Tolerant Architecture"
+
   - category: "Data & Architecture"
     items:
       - "Data Strategy & Governance"
@@ -192,6 +205,9 @@ about:
     - "My recent focus has been on leveraging emerging technologies like GenAI, advanced analytics, and cloud platforms to create scalable solutions that deliver measurable business impact. I have a proven track record of managing large-scale transformations across Fortune 500 companies in retail, healthcare, financial services, and supply chain industries."
 
   education:
+    - degree: "Doctorate (Ph.D.) in Space Computing - Underway"
+      institution: "University of North Dakota"
+      year: ""
     - degree: "Master's Degree in Applied & Computational Mathematics"
       institution: "University of Michigan"
       year: ""
@@ -224,3 +240,6 @@ about:
 footer:
   copyright: "All rights reserved."
   madeWith: "Designed & Developed by"
+  links:
+    - name: "Space"
+      href: "https://space.prabasiva.ai"
